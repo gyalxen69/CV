@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    /* background-color: rgb(95, 201, 243); */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+  
+}
+
+.col-izq{
+    padding: 10px;
+    background-color: rgb(255, 255, 61);
+    width: 50%;
+}
+
+.col-der{
+    padding: 10px;
+    background-color: rgb(95, 201, 243);
+    width: 50%;
+}
+
+.img-profile{
+  width: 100%;
+}
+
+.img-profile img{
+    width: 100%;
+    overflow: hidden;
+    filter: grayscale();
+}
+
+.job{
+    background-color: powderblue;
+    width: fit-content;
+    padding: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-item{
+    background-color: rgb(255, 255, 113);
+}
+
+.contact-container{
+    position: fixed;
+    top: 95%;
+    left: 42%;
+}
+
+.whats{
+    background-color: #27CD65;
+}
+
+.linked{
+    background-color: #0C61BF;
+}
+
+.insta{
+    background-color: #8a3ab9;
+}
+
+@media screen and (max-width: 414px){
+    .container{
+        /* background-color: rgb(95, 201, 243); */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .col-der{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .col-izq{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+}
