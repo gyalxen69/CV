@@ -2,92 +2,277 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🖖 Gelchhen Sherpa CV 2022 👨‍💻 </title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" author="Gelchhen Sherpa" content="width=device-width, initial-scale=1.0">
+    <title>Alex Morgan - Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <div class="container">
-        <div class="col-izq"> 
-            <div class="img-profile">
-                <img src="./photo.jpg" alt="" srcset="">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="profile-section">
+                <div class="profile-image-wrapper">
+                    <img src="./imgs/profile.jpeg" alt="Alex Morgan" class="profile-image" id="profileImage">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="profile-info">
+                    <h1 class="name">Alex Morgan</h1>
+                    <h2 class="title">Full Stack Developer & Software Engineer</h2>
+                    <p class="tagline">Building scalable web applications with modern technologies</p>
+                </div>
             </div>
-            <div class="job">Programador</div>
-            <h1>Gelchhen Sherpa</h1>
-            <ul>
-                <li>+34 621 24 31 54</li>
-                <li>nzlo.crpa@gmail.com</li>
-                <li>Barcelona</li>
-            </ul>
-            <section class="section-principal">
-                <h2>Idiomas</h2>
-                <ul>
-                    <li>Espanol</li>
-                    <li>Angles</li>
-                    <li>Catalan</li>
-                    <li>Nepali</li>
-                    <li>Hindi</li>
-                </ul>
-            </section>
-        </div>
-        <div class="col-der">
-            <section class="section-principal">
-                <h2>Experiencia</h2>
-
-                <div class="section-item">
-                    <h4>Cambrer</h4>
-                    <p>Informar i servir a les persones, gestio caixa,
-                        neteja i manteniment espai. Treball coordinat 
-                        amb professionals de la cuina i sala.
-                    </p>
-                    <p>- 2021</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span><a href="mailto:alex.morgan@email.com" style="color: white; text-decoration: none;">alex.morgan@email.com</a></span>
                 </div>
-
-                <div class="section-item">
-                    <h4>Gestio comunicacions</h4>
-                    <p>Gestio trucades nacionals i internacionals, gestio caixa, 
-                        Neteja i manteniment espai.
-                    </p>
-                    <p>Resolucion incidencies ordinador (software i hardware)</p>
-                    <p>2017 - 2018</p>
-                </div>  
-            
-            </section>
-
-
-            <section class="section-principal">
-                <h2>Educacion</h2>
-
-                <div class="section-item">
-                    <h4>Administració de sistemes informàtics en xarxa</h4>
-                    <a target="blank" href="https://lasallemanlleu.cat/en/inici-2-english/">La Salle Manlleu</a>
-                    <p>OCT 2021 - Actualment</p>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+1 (555) 123-4567</span>
                 </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>San Francisco, CA</span>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/gyalxen69" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/gelchhen-sherpa-762594230/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link" ><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </header>
 
-                <div class="section-item">
-                    <h4>Formació del desunvolupament web</h4>
-                    <a href="https://factoriaf5.org/">Factoria F5</a>
-                    <p>2021 - 2022</p>
-                </div>  
+        <!-- About Section -->
+        <section class="section about-section">
+            <h3 class="section-title">
+                <i class="fas fa-user-circle"></i>
+                About Me
+            </h3>
+            <p class="about-text">
+                Passionate Full Stack Developer with 5+ years of experience designing and implementing scalable web applications. 
+                Specialized in React, Node.js, and cloud technologies. Strong advocate for clean code, test-driven development, 
+                and agile methodologies. Committed to continuous learning and staying current with emerging technologies.
+            </p>
+        </section>
 
-                <div class="section-item">
-                    <h4>Computer Science</h4>
-                    <a href="https://saipal.edu.np/">Saipal Academy</a>
-                    <p>Dhumbarahi, Nepal</p>
-                </div>  
-            
-            </section>
+        <!-- Skills Section -->
+        <section class="section skills-section">
+            <h3 class="section-title">
+                <i class="fas fa-code"></i>
+                Technical Skills
+            </h3>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Frontend</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3/SASS</span>
+                        <span class="skill-tag">Redux</span>
+                        <span class="skill-tag">Next.js</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Backend</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">GraphQL</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Spring Boot</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Database</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">Firebase</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>DevOps & Tools</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">Linux</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- Experience Section -->
+        <section class="section experience-section">
+            <h3 class="section-title">
+                <i class="fas fa-briefcase"></i>
+                Work Experience
+            </h3>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h4>Senior Full Stack Developer</h4>
+                            <span class="company">TechCorp Solutions</span>
+                            <span class="date">Jan 2022 - Present</span>
+                        </div>
+                        <ul class="responsibilities">
+                            <li>Led development of microservices architecture serving 500K+ daily users</li>
+                            <li>Reduced application load time by 40% through optimization and caching strategies</li>
+                            <li>Mentored team of 5 junior developers and conducted code reviews</li>
+                            <li>Implemented CI/CD pipelines reducing deployment time by 60%</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h4>Full Stack Developer</h4>
+                            <span class="company">Digital Innovations Inc.</span>
+                            <span class="date">Jun 2020 - Dec 2021</span>
+                        </div>
+                        <ul class="responsibilities">
+                            <li>Built responsive web applications using React and Node.js</li>
+                            <li>Developed RESTful APIs and integrated third-party services</li>
+                            <li>Collaborated with UX designers to implement pixel-perfect interfaces</li>
+                            <li>Maintained 95% test coverage across all projects</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h4>Junior Software Engineer</h4>
+                            <span class="company">StartUp Labs</span>
+                            <span class="date">Jul 2019 - May 2020</span>
+                        </div>
+                        <ul class="responsibilities">
+                            <li>Developed features for e-commerce platform handling 10K+ transactions monthly</li>
+                            <li>Fixed bugs and improved application performance</li>
+                            <li>Participated in agile ceremonies and sprint planning</li>
+                            <li>Learned and applied best practices in software development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- Projects Section -->
+        <section class="section projects-section">
+            <h3 class="section-title">
+                <i class="fas fa-project-diagram"></i>
+                Featured Projects
+            </h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h4>E-Commerce Platform</h4>
+                    <p>Full-featured online store with payment integration, inventory management, and admin dashboard.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>Stripe</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h4>Real-time Chat Application</h4>
+                    <p>WebSocket-based messaging app with group chats, file sharing, and end-to-end encryption.</p>
+                    <div class="project-tech">
+                        <span>Vue.js</span>
+                        <span>Socket.io</span>
+                        <span>Express</span>
+                        <span>Redis</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h4>Analytics Dashboard</h4>
+                    <p>Data visualization platform with real-time metrics, custom reports, and API integration.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>D3.js</span>
+                        <span>Python</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h4>Task Management System</h4>
+                    <p>Collaborative project management tool with Kanban boards, time tracking, and team collaboration features.</p>
+                    <div class="project-tech">
+                        <span>Next.js</span>
+                        <span>GraphQL</span>
+                        <span>Prisma</span>
+                        <span>Docker</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </section>
 
-        </div>
-        <div class="contact-container">
-            <a target="blank" href="https://wa.me/621243154" target="_blank"><input class="whats" type="submit" value="Whatsapp"></a>
-            <a target="blank" href="https://www.linkedin.com/in/gelchhen-sherpa-762594230/"><input class="linked" type="button" value="LinkedIn"></a>
-            <a target="blank" href="https://www.instagram.com/gyalxen__/"><input class="insta" type="button" value="Instagram">
-            </div></a>
+        <!-- Education Section -->
+        <section class="section education-section">
+            <h3 class="section-title">
+                <i class="fas fa-graduation-cap"></i>
+                Education
+            </h3>
+            <div class="education-grid">
+                <div class="education-card">
+                    <h4>Bachelor of Science in Computer Science</h4>
+                    <p class="institution">University of California, Berkeley</p>
+                    <p class="edu-date">2015 - 2019</p>
+                    <p class="edu-details">GPA: 3.8/4.0 | Dean's List</p>
+                </div>
+                <div class="education-card">
+                    <h4>Certifications</h4>
+                    <ul class="cert-list">
+                        <li>AWS Certified Solutions Architect</li>
+                        <li>MongoDB Certified Developer</li>
+                        <li>Google Cloud Professional Developer</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Alex Morgan. All rights reserved.</p>
+            <button class="download-btn" onclick="window.print()">
+                <i class="fas fa-download"></i> Download CV
+            </button>
+        </footer>
     </div>
-    
+
+    <script src="script.js"></script>
 </body>
 </html>
